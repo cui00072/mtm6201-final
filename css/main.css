@@ -7,8 +7,13 @@
     background-color: black;
 }
 
+.nav-logo {
+    margin-right: 5rem;
+}
+
 ul.nav {
     font-family: 'Sintony', sans-serif;
+    font-size: 0.75rem;
 }
 
 .nav-link {
@@ -23,29 +28,41 @@ h1 {
 
 h2 {
     font-family: 'Anek Kannada', sans-serif;
+    font-size: 2rem;
 }
 
 h3 {
     font-family: 'Anek Kannada', sans-serif;
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
 }
 
 p {
-    font-size: 1.125rem;
+    font-size: .85rem;
     color: #343a40;
     margin-bottom: 20px;
 }
 
+.section-hero {
+    margin-top: 4rem;
+}
+
 .section-hero .subtitle {
     display: block;
-    font-size: 1.25rem;
+    font-size: .85rem;
     margin-bottom: 30px;
-    color: #6c757d; 
 }
 
 .section-hero img {
     max-width: 100%;
     height: auto;
     margin-bottom: 30px;
+}
+
+.section-solutions {
+    margin-top: 4rem;
+}
+
+.red-subtitle {
+    color: #EC3C07;
+    font-size: .65rem;
 }
