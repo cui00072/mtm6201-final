@@ -62,3 +62,19 @@ p {
 .red-subtitle {
     font-size: .75rem;
 }
+
+  
+  /* Tablet and desktop version: Whte background */
+  @media (min-width: 768px) {
+    .solution-3 {
+        background-color: white !important;
+        color: black !important;
+    }
+
+    .solution-4 {
+        background-color: black !important;
+        color: white;
+    }
+
+
+  }
