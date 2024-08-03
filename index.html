@@ -14,59 +14,72 @@
     </title>
 </head>
 
-<body class="bg-custom container">
-    <section class="section-nav mb-5">
+<body class="container">
+    <section class="section-nav">
         <div class="">
             <nav class="navbar navbar-expand-md navbar-light">
-                <a class="nav-logo row justify-content-start col-4" href="#">
-                    <img src="images/logo.png" alt="logo" class="img-fluid">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto d-flex justify-content-between w-100">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Solutions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Achievements</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <button class="btn nav-link-button">· LET US TALK</button>
-                        </li>
-                    </ul>
+                <div class="container ps-0 pe-0">
+                    <a class="navbar-brand pt-0" href="#">
+                        <img src="images/logo.png" alt="Logo" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto d-flex justify-content-end w-100 text-dark">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Solutions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Achievements</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item pe-0">
+                                <button class="btn nav-link-button btn-dark rounded-0"><span
+                                        class="dot my-text-danger fw-bold animated-dot">·</span> LET US TALK</button>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
     </section>
 
-    <section class="section-hero mb-5">
-        <h1>Full-service design marketing agency</h1>
-        <span class="subtitle">
+    <section class="section-hero mb-6">
+        <h1 class="lh-base">Full-service design marketing agency</h1>
+        <span class="subtitle fs-5">
             specialized in crafting human — centric digital experiences.
         </span>
-        <picture>
-            <source srcset="images/image slider-large.png" media="(min-width: 1200px)">
-            <source media="(min-width: 768px)" srcset="images/image slider-small.png">
-            <img src="images/image slider-small.png" alt="two staff talking" class="img-fluid">
-        </picture>
-        <div>
-            <h3>We're VistaFusion</h3>
-            <p>Welcome to VistaFusion, your partner in creativity and brand differentiation.</p>
-            <p>We offer marketing design services for small and medium-sized enterprises, helping your brand stand out
-                through visual design, UX, and front-end development.</p>
+
+        <div class=" d-flex justify-content-center align-items-center ps-0 pe-0 img-fluid">
+            <div class="position-relative row ms-0 me-0">
+                <div class="col-12 ps-0 pe-0">
+                    <img src="images/slider-large.jpg" alt="">
+                </div>
+
+                <div class="text-overlay d-none d-md-block">
+                    <h3 class="fs-1">We're VistaFusion</h3>
+                    <p>Welcome to VistaFusion, your partner in creativity and brand differentiation.</p>
+                    <p>We offer marketing design services for small and medium-sized enterprises, helping your brand
+                        stand out through visual design, UX, and front-end development.</p>
+                </div>
+                <div class="text-below-image d-block d-md-none ps-0 pe-0">
+                    <h3>We're VistaFusion</h3>
+                    <p>Welcome to VistaFusion, your partner in creativity and brand differentiation.</p>
+                    <p>We offer marketing design services for small and medium-sized enterprises, helping your brand
+                        stand out through visual design, UX, and front-end development.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="section-solutions mb-5">
-        <span class="red-subtitle text-danger fw-light">SOLUTIONS</span>
-        <h2>Help with Your Brand</h2>
-        <div class="container container-solutions mb-2">
+        <span class="red-subtitle my-text-danger fw-light">SOLUTIONS</span>
+        <h2 class="fs-1 mt-1">Help with Your Brand</h2>
+        <div class="container container-solutions mt-5 mb-2">
             <div class="row row-cols-1 row-cols-md-2 g-4 mb-sm-4">
                 <div class="solution-1 col-md-7 col-sm-12 bg-dark text-white">
                     <div class="pt-5 pb-5 container">
@@ -77,15 +90,13 @@
                         </div>
 
                         <div class="row mb-4">
-                            <div class=" ">
-                                <h3>Pioneering Creativity</h3>
-                            </div>
+                            <h3>Pioneering Creativity</h3>
                         </div>
 
                         <div class="row mb-4">
-                            <div class="">
+                            <div>
                                 <a
-                                    class="text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
+                                    class="a-solution my-text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
                                     VIEW SOLUTION
                                 </a>
                             </div>
@@ -93,7 +104,7 @@
                     </div>
                 </div>
 
-                <div class="solution-2 col-md-5 col-sm-12 bg-light">
+                <div class="solution-2 col-md-5 col-sm-12 bg-light justify-content-end">
                     <div class="pt-5 pb-5 container">
                         <div class="row mb-4">
                             <div class="col-12 text-left">
@@ -110,7 +121,7 @@
                         <div class="row mb-4">
                             <div class="col-12 text-left">
                                 <a
-                                    class="text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
+                                    class="a-solution my-text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
                                     VIEW SOLUTION
                                 </a>
                             </div>
@@ -137,7 +148,7 @@
                         <div class="row mb-4">
                             <div class="col-12 text-left">
                                 <a
-                                    class="text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
+                                    class="a-solution my-text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
                                     VIEW SOLUTION
                                 </a>
                             </div>
@@ -162,7 +173,7 @@
                         <div class="row mb-4">
                             <div class="col-12 text-left">
                                 <a
-                                    class="text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
+                                    class="a-solution my-text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
                                     VIEW SOLUTION
                                 </a>
                             </div>
@@ -174,17 +185,17 @@
         </div>
 
         <div class="d-grid">
-            <button type="button" class="btn btn-dark"
+            <button type="button" class="btn btn-dark rounded-0 pt-2 pb-2"
                 style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .85rem;">EXPLORE
                 MORE</button>
         </div>
     </section>
 
     <section class="section-achievements mb-5">
-        <span class="red-subtitle text-danger">ACHIEVEMENTS</span>
-        <h2>See Our Achievements</h2>
-        <div class="container mt-2">
-            <div class="row g-3 row-cols-1 row-cols-md-3 mb-4">
+        <span class="red-subtitle my-text-danger">ACHIEVEMENTS</span>
+        <h2 class="fs-1 mt-1">See Our Achievements</h2>
+        <div class="container mt-5 ps-0 pe-0">
+            <div class="row g-3 row-cols-1 row-cols-md-3 mb-4 ms-0 me-0">
                 <div class="comany-1 col-md-4 col-sm-12 bg-light pt-5 pb-5 ps-5 pe-5">
                     <div class="pb-5">
                         <img src="images/logo1.png" alt="logo1">
@@ -195,7 +206,7 @@
                         future.
                     </p>
                     <a
-                        class="text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
+                        class="a-solution my-text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
                         VIEW SOLUTION
                     </a>
                 </div>
@@ -210,7 +221,7 @@
                         holistic
                         health goals.</p>
                     <a
-                        class="text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
+                        class="a-solution my-text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
                         VIEW SOLUTION
                     </a>
                 </div>
@@ -225,7 +236,7 @@
                         deals for
                         globetrotters.</p>
                     <a
-                        class="text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
+                        class="a-solution my-text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
                         VIEW SOLUTION
                     </a>
                 </div>
@@ -233,17 +244,17 @@
         </div>
 
         <div class="d-grid">
-            <button type="button" class="btn btn-dark"
+            <button type="button" class="btn btn-dark rounded-0 pt-2 pb-2"
                 style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .85rem;">EXPLORE
                 MORE</button>
         </div>
     </section>
 
     <section class="section-achievements-team mb-5">
-        <span class="red-subtitle text-danger">ACHIEVEMENTS</span>
-        <h2>See Our Achievements - Team</h2>
-        <div class="team-container container mt-2">
-            <div class="row g-3 row-cols-1 row-cols-md-3 mb-4">
+        <span class="red-subtitle my-text-danger">ACHIEVEMENTS</span>
+        <h2 class="fs-1 mt-1">See Our Achievements - Team</h2>
+        <div class="team-container container mt-5 ps-0 pe-0">
+            <div class="row g-3 row-cols-1 row-cols-md-3 mb-4 ms-0 me-0">
                 <div class="team-member-1 col-md-4 col-sm-12 bg-light pt-5 pb-5 ps-5 pe-5">
                     <div class="container">
                         <div class="row">
@@ -251,7 +262,7 @@
                                 <h5>Jenny J</h5>
                                 <p class="mb-6">UX designer</p>
                                 <a
-                                    class="mt-6 text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
+                                    class="a-solution mt-6 my-text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
                                     View Profile
                                 </a>
                             </div>
@@ -269,7 +280,7 @@
                                 <h5>Tony K</h5>
                                 <p class="mb-6">UX designer</p>
                                 <a
-                                    class="text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
+                                    class="a-solution my-text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
                                     View Profile
                                 </a>
                             </div>
@@ -287,7 +298,7 @@
                                 <h5>Jessie C</h5>
                                 <p class="mb-6">UX designer</p>
                                 <a
-                                    class="text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
+                                    class="a-solution my-text-danger link-underline-danger link-underline-opacity-50 link-underline-opacity-100-hover">
                                     View Profile
                                 </a>
                             </div>
@@ -299,15 +310,28 @@
                 </div>
             </div>
         </div>
+        <div class="d-grid">
+            <button type="button" class="btn btn-dark rounded-0 pt-2 pb-2"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .85rem;">EXPLORE
+                MORE</button>
+        </div>
     </section>
 
     <section class="section-contact mb-5 text-center">
-        <span class="red-subtitle text-danger">CONTACT</span>
-        <h2>Contact Us</h2>
-        <div class="contact-content-container bg-dark text-white mt-4 pt-5 pb-5">
-            <h3 class="mb-4">Let's work together</h3>
-            <p class="text-white">Tell us your challenges, and let us help you overcome them. </p>
-            <button type="button" class="btn btn-danger mt-4">LET US TALK</button>
+        <span class="red-subtitle my-text-danger">CONTACT</span>
+        <h2 class="fs-1 mt-1">Contact Us</h2>
+        <div class="contact-content-container bg-dark text-white mt-5 pt-5 pb-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <h3 class="mb-4">Let's work together</h3>
+                        <p class="text-white">Tell us your challenges, and let us help you overcome them.</p>
+                        <button class="btn nav-link-button my-danger-button rounded-0 mt-5"><span
+                                class="dot higher-danger-color fw-bold">·</span> LET US TALK
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -315,7 +339,9 @@
         <div class="container">
             <div class="row">
                 <div class="col mb-5">
-                    <img src="images/logo.png" alt="logo">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="Logo" class="img-fluid">
+                    </a>
                 </div>
                 <div class="col-md-4 container">
                     <ul class="row g-4 list-inline">
@@ -333,7 +359,7 @@
                         </div>
                     </ul>
                 </div>
-             
+
                 <div class="col-md-4 container mt-5">
                     <ul class="row g-4 list-inline">
                         <div class="col-12">

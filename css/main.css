@@ -1,53 +1,114 @@
-.bg-custom {
-    background-color: #D5DEDC;
+:root {
+    --my-custom-color: #D5DEDC;
+    --button-radius:none;
 }
 
-.nav-link-button {
-    color: white;
-    background-color: black;
+body {
+    max-width: 1200px;
+    background-color: var(--my-custom-color);
 }
 
-.nav-logo {
-    margin-right: 5rem;
+.section-nav {
+    margin-bottom: 8rem;
+}
+
+.nav-link {
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    text-shadow: 0px 2px 4px rgba(186, 186, 186, 0.2);
+}
+
+.nav-link-button:hover{
+    background-color: #EC3C07 0.5s;
+    transform: scale(1.1);
+    text-shadow: 0 0 10px rgba(50, 49, 49, 0.5);
+    transition: all 0.8s ease-in-out;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+    height: auto;
 }
 
 ul.nav {
     font-family: 'Sintony', sans-serif;
-    font-size: 0.75rem;
 }
 
-.nav-link {
+.navbar-nav a:hover {
+    color: #000000;
+    transform: scale(1.2);
+    transition: all 0.8s ease-in-out;
+}
+
+.nav-item {
+    padding: 0 0.5rem;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+.a-solution:hover{
+    transform: scale(1.2);
+    color: #f0410c;
+    text-shadow: #d2bebc;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.btn-dark:hover {
+    background-color: white;
     color: black;
 }
 
 h1 {
     font-family: 'Sintony', sans-serif;
-    font-size: 2.5rem;
     margin-bottom: 20px;
+    font-size: 3rem;
 }
 
 h2 {
     font-family: 'Anek Kannada', sans-serif;
-    font-size: 2rem;
 }
 
 h3 {
     font-family: 'Anek Kannada', sans-serif;
-    font-size: 1.5rem;
 }
 
 p {
-    font-size: .85rem;
     color: #343a40;
     margin-bottom: 20px;
 }
 
+.dot {
+    font-weight: bold;
+}
+
+.my-danger-button {
+    background-color: #EC3C07;
+    border-color: #EC3C07;
+    color: white;
+    font-size: 16px;
+}
+
+.my-danger-button:hover {
+    background-color: white;
+    color: #0a0a0a;
+}
 
 .section-hero .subtitle {
     display: block;
-    font-size: .85rem;
     margin-bottom: 30px;
 }
+
 
 .section-hero img {
     max-width: 100%;
@@ -55,17 +116,61 @@ p {
     margin-bottom: 30px;
 }
 
-.section-solutions {
-    margin-top: 4rem;
+.section-solutions , .section-achievements , .section-achievements-team , .section-contact , footer{
+    margin-top: 8rem;
 }
 
-.red-subtitle {
-    font-size: .75rem;
+.higher-danger-color {
+    color: rgb(172, 16, 16);
 }
+
+.my-text-danger {
+    color: #EC3C07;
+}
+
+.dot {
+    animation: dot-animation 1s infinite alternate;
+}
+
+
+
+@keyframes dot-animation {
+    from {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+/* Default font size */
+
 
   
-  /* Tablet and desktop version: Whte background */
+
+
+ /* Media query for mobile */
+ @media (max-width: 480px) {
+
+
+}
+
+  /* Tablet version*/
   @media (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .navbar-brand img {
+        max-width: 200px;
+        height: auto;
+     }
+
+    
+    
+
     .solution-3 {
         background-color: white !important;
         color: black !important;
@@ -76,5 +181,35 @@ p {
         color: white;
     }
 
+    .text-overlay {
+        position: absolute;
+        bottom: -150px;
+        left: 250px;
+        max-width: fit-content;
+        background-color: #D5DEDC;
+        padding: 20px;
+        color: black;
+      }
+    
+}
 
-  }
+/* Desktop version*/
+@media (min-width: 992px) {
+    .text-overlay {
+        position: absolute;
+        bottom: -80px;
+        left: 450px;
+        max-width: fit-content;
+        background-color: #D5DEDC;
+        padding: 40px;
+        color: black;
+      }
+
+    .nav-link {
+        font-size: 1.3rem;
+    }
+    
+    .nav-link-button {
+        font-size: 1.3rem;
+    }
+}
