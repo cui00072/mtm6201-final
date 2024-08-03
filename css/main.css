@@ -57,7 +57,6 @@ ul.nav {
   }
 
 .a-solution:hover{
-    transform: scale(1.2);
     color: #f0410c;
     text-shadow: #d2bebc;
     transition: all 0.3s ease-in-out;
@@ -72,20 +71,23 @@ ul.nav {
 h1 {
     font-family: 'Sintony', sans-serif;
     margin-bottom: 20px;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 h2 {
     font-family: 'Anek Kannada', sans-serif;
+    font-size: 2.5rem;
 }
 
 h3 {
     font-family: 'Anek Kannada', sans-serif;
+    font-size: 2rem;
 }
 
 p {
     color: #343a40;
     margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .dot {
@@ -163,10 +165,21 @@ p {
         font-size: 3rem;
     }
 
+    h2 {
+        font-size: 2.3rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+    
+    p {
+        font-size: 16px;
+    }
     .navbar-brand img {
         max-width: 200px;
         height: auto;
-     }
+    }
 
     
     
