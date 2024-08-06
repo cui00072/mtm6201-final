@@ -25,7 +25,7 @@ body {
 }
 
 .nav-link-button:hover{
-    background-color: #EC3C07 0.5s;
+    background-color: #EC3C07;
     transform: scale(1.1);
     text-shadow: 0 0 10px rgba(50, 49, 49, 0.5);
     transition: all 0.8s ease-in-out;
