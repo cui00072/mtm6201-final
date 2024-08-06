@@ -57,8 +57,16 @@
         <div class=" d-flex justify-content-center align-items-center ps-0 pe-0 img-fluid">
             <div class="position-relative row ms-0 me-0">
                 <div class="col-12 ps-0 pe-0">
-                    <img src="images/slider-large.jpg" alt="">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="images/image-slider-lg.jpg">
+                        <source media="(min-width: 768px)" srcset="images/image-slider-ms.png">
+                        <source media="(min-width: 576px)" srcset="images/image-slider-sm.png">
+                 
+                        <img src="images/image-slider-lg.jpg" alt="Two staffs are talking in office">
+                    </picture>
                 </div>
+                
+
 
                 <div class="text-overlay d-none d-md-block">
                     <h3 class="fs-1">We're VistaFusion</h3>
@@ -71,7 +79,7 @@
                     <p>Welcome to VistaFusion, your partner in creativity and brand differentiation.</p>
                     <p>We offer marketing design services for small and medium-sized enterprises, helping your brand
                         stand out through visual design, UX, and front-end development.</p>
-                </div>
+                </div> 
             </div>
         </div>
     </section>
